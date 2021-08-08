@@ -1,0 +1,144 @@
+ @charset "utf-8";
+
+@charset "utf-8";
+
+/* CSS Document */
+
+/* larger desktop */
+
+/* standard desktop */
+
+
+
+
+
+
+@media (min-width:1024px) and (max-width:1440px)
+{
+    .mnone {    display: none !important;}
+}
+
+@media(min-width:768px) and (max-width:1024px){
+
+/************* Home page start here ****************************************/
+.mnone {    display: none !important;}
+	.menu{padding-left:0px;margin-top:-10px;}
+
+	.menu li a{padding: 5px 3px;}
+
+	.left h2{font-size:16px;}
+
+	ul.main-navigation-menu > li a{font-size:14px;}
+
+	.left img {margin-top: -10px;padding-left:15px;}
+
+	.left{padding-left:10px;}
+
+	.innerproduct h1,.contact h1{font-size:20px;}
+
+	.about,.quality,.product,.innerproduct,.client,.contact {padding: 0 25px 20px 20px;}
+	.enquiry{
+		padding: 0;
+	}
+
+	.enquiry form input{height:30px;}
+
+	.enquiry h2{font-size:20px;}
+
+	.pro-txt h5,.contact h2{padding:0px;font-size:18px;}
+
+	.bxslider2 li img 		{margin:40px 0 0 0;}
+
+	.banner-img				{background:url(../images/banner-bg.png); background-size:cover; height:530px}
+
+}
+
+
+
+/*mobile view */
+
+@media (max-width:480px) {
+
+
+.menu{padding-left:0px;}	
+
+.menu li a{font-size:12px;color:#111;}	
+
+.right{float:none;}
+
+.left img{padding:0px;}
+
+.left h2{font-size:16px;}
+
+ul.main-navigation-menu > li a{font-size:13px;}
+
+.content1 p{font-size:13px;text-align: justify;}
+
+.content1 ul li{padding:0px;}
+
+.content2 span,.client h1{font-size:18px;}
+
+.content2 h2,.quality p,.quality ul li{font-size:13px;}
+
+.content2 p,.about p,.abt1 ul li,.product1 p,.innerproduct p,.cont p{font-size:13px;}
+
+.abt{padding-bottom:20px;}
+
+.mail h1{font-size:15px;}
+
+.mail{text-align:center;}
+
+.end ul li + li,.end li{float:none;text-align:center;font-size:12px;}
+
+.about,.quality,.product,.innerproduct,.client,.contact{padding:0 20px 20px 20px;}
+.enquiry{
+	padding:0;
+}
+
+.about h1,.quality h3,.innerproduct h1,.enquiry h1,.enquiry h2,.contact h1{font-size:18px;}
+
+.quality h1{font-size:14px;}
+
+.quality1 h2,.enquiry form input[type="submit"],.contact h2{font-size:12px;}
+
+.enquiry form input{height:30px;}
+
+.pro-txt h5{padding:0px;font-size:16px;}
+
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+	.header nav ul.menu{
+		display: none;
+	}
+	.banner-img.hero-banner img {
+		max-height: 220px;
+	  }
+	  .banner-img.hero-banner ul > li.grid-img > img {
+		margin: 2px;
+	}
+	.mail {
+		margin-top: 35px;
+	}
+	a.hvr-underline-from-center.sidebar-open-icon.d-view{
+		display: none;
+	}
+	a.hvr-underline-from-center.sidebar-open-icon.m-view{
+		display: inline-block;
+		color: #1bbd36;
+		position: fixed;
+		top: 15px;
+		z-index: 9999;
+		right: 15px;
+	}
+.banner.heroes-toggle {
+		width: 100%;
+	}
+	ul.main-navigation-menu > li {
+		display: block;
+		width: 100%;
+	}
+	
+}
+
+
