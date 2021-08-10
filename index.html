@@ -65,6 +65,7 @@
   ga('send', 'pageview');
 
 </script>
+
 </head>
 <body>
 
@@ -302,12 +303,15 @@ Avail the most impeccable range of industrial products from the one stop shop i.
 <div class="col-md-4 col-sm-4">
 <div class="mail wow fadeInRight" data-wow-delay="0.7s">
 <h1>Please Submit Your Requirement for "Industrial valves"</h1>
-<form action="https://script.google.com/macros/s/AKfycbwEYUbbHDibZhvxYlTLFajuxW250P4VkeFAhpjxThLnUpjiYBKa5AalDa_wCU1Vwkrfbg/exec" method="POST" class="gform" onSubmit= "window.close();">
+<form  class="gform" id= "contactform" name="contactform" >
 <input type="text" name="Name" placeholder="Name">
 <input type="text" name="Email" placeholder="Email">
 <input type="text" name="Mobile" placeholder="Mobile">
 <input type="text" name="Requirement" placeholder="Your Requirement">
-<button style="color: #03470d; margin-top: 20px; border: olivedrab;" onclick="window.open('mongoserver/spire/Thanks-for-Vist.html')">Submit</button>
+<button style="color: #03470d; margin-top: 20px; border: olivedrab;"  >Submit</button>
+<p id="thank-you-message">
+  Thanks! Your form is Successfully submitted.
+</p>
 </form>
 </div>
 </div>
@@ -418,7 +422,24 @@ Avail the most impeccable range of industrial products from the one stop shop i.
 </script>
  
      <!-----------------------dropdown----------------->
+ 
 
+     <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwEYUbbHDibZhvxYlTLFajuxW250P4VkeFAhpjxThLnUpjiYBKa5AalDa_wCU1Vwkrfbg/exec'
+      const form = document.forms['contactform']
+      const thankYouMessage = document.querySelector('#thank-you-message');
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+          thankYouMessage.classList.add('show');
+          setTimeout(() => window.open('mongoserver/spire/Thanks-for-Vist.html'), 5000);
+      })
+      form.hide('contactform')
+      
+    </script>
 <script>
 $(document).ready(function(){ 
 	var touch 	= $('#resp-menu');

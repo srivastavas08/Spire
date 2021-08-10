@@ -286,21 +286,21 @@
 <div class="enquiry">
 <div class="col-md-12 col-sm-12"><h1>Enquiry</h1></div>
 <div class="col-md-6 col-sm-8">
-<form action="https://script.google.com/macros/s/AKfycbwEYUbbHDibZhvxYlTLFajuxW250P4VkeFAhpjxThLnUpjiYBKa5AalDa_wCU1Vwkrfbg/exec" method="post" id="contactForm" name="contactForm" onSubmit= "window.close();">
-<h2>Mail Us</h2>
-<input type="text" name="Name" placeholder="Name" required>
-<input type="text" name="cname" placeholder="Company Name" required>
-<input type="text" name="Mobile" placeholder="Mobile" required>
-<input type="text" name="Email" placeholder="Email-Id" required>
-<input type="text" name="Address" placeholder="Address" required>
-<textarea name="Message" rows="4" cols="50" placeholder="Place your message here!">
-Place your message here!
-</textarea>
-<!-- <div class="g-recaptcha" id="rcaptcha"  data-sitekey="site key"></div>
-<span id="captcha" style="color:red" /></span>  -->
 
-<input type="submit" onclick="window.open('Thanks-for-Vist.html')" value="SUBMIT">
-</form>
+<form  class="gform" id= "contactform" name="contactform" >
+	<h2>Mail Us</h2>
+	<input type="text" name="Name" placeholder="Name" required>
+	<input type="text" name="cname" placeholder="Company Name" required>
+	<input type="text" name="Mobile" placeholder="Mobile" required>
+	<input type="text" name="Email" placeholder="Email-Id" required>
+	<input type="text" name="Address" placeholder="Address" required>
+	<textarea name="Message" rows="4" cols="50" placeholder="Place your message here!">Place your message here!
+	</textarea>
+	<input type="submit" name="submit" value="SUBMIT">
+	<p id="thank-you-message">
+	  Thanks! Your form is Successfully submitted.
+	</p>
+	</form>
 </div>
 
 <div class="col-md-6 col-sm-4">
@@ -366,7 +366,22 @@ Place your message here!
 </script>
  
      <!-----------------------dropdown----------------->
-
+    <script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbwEYUbbHDibZhvxYlTLFajuxW250P4VkeFAhpjxThLnUpjiYBKa5AalDa_wCU1Vwkrfbg/exec'
+		const form = document.forms['contactform']
+		const thankYouMessage = document.querySelector('#thank-you-message');
+	  
+		form.addEventListener('submit', e => {
+		  e.preventDefault()
+		  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => console.log('Success!', response))
+			.catch(error => console.error('Error!', error.message))
+			thankYouMessage.classList.add('show');
+			setTimeout(() => window.open('Thanks-for-Vist.html'), 5000);
+		})
+		form.hide('contactform')
+		
+	</script>
 <script>
 $(document).ready(function(){ 
 	var touch 	= $('#resp-menu');

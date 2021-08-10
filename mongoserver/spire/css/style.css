@@ -1540,3 +1540,11 @@ a.hvr-underline-from-center.sidebar-open-icon.m-view{
   margin-top: 8rem;
   margin-bottom: 10rem;
 }
+#thank-you-message {
+  display: none;
+}
+
+#thank-you-message.show {
+  display: block;
+  color: #09db25;
+}
