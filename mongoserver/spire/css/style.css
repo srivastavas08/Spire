@@ -177,7 +177,7 @@ nav {
 
 .menu li:hover>a,.menu .active > a {
 
-color:#1bbd36;
+color:#87CEEB;
 
 }
 
@@ -269,7 +269,7 @@ color:#1bbd36;
 
   color: #FFF;
 
-  background: #1bbd36;
+  background: #87CEEB;
 
   font-weight:600;
 
@@ -369,7 +369,7 @@ color:#1bbd36;
 
   padding: 10px 15px;
 
-  background: #1bbd36;
+  background: #87CEEB;
 
   color: #fff;
 
@@ -383,7 +383,7 @@ color:#1bbd36;
 
 .responsive-menu:hover {
 
-  background: #1bbd36;
+  background: #87CEEB;
 
   color: #fff;
 
@@ -411,7 +411,7 @@ a.homer { background: #ff4d0e; }
 
 
 
-a.homer { background: #1bbd36; }
+a.homer { background: #87CEEB; }
 
 }
 
@@ -511,7 +511,7 @@ nav {
 
 .menu li:hover>a {
 
-  background: #1bbd36;
+  background: #87CEEB;
 
   color: #fff;
 
@@ -596,7 +596,7 @@ nav {
 
 .left h1{font-size:20px;color:#000;margin:10px 0;font-weight:600;}
 
-.left h2{color:#1bbd36;font-size:18px;margin:20px 0 10px 0;font-weight:600;margin-bottom: 5px;}
+.left h2{color:#87CEEB;font-size:18px;margin:20px 0 10px 0;font-weight:600;margin-bottom: 5px;}
 
 .left ul{padding:0px;
   display: flex;
@@ -605,7 +605,7 @@ nav {
 
 .left ul li a{color:#000;font-size:15px;font-weight:600;font-family: 'Open Sans', sans-serif;}
 
-.left ul li a:hover{color:#1bbd36;padding-left:10px;}
+.left ul li a:hover{color:#87CEEB;padding-left:10px;}
 
 /* .iso{background:#FFF;} */
 
@@ -613,7 +613,7 @@ nav {
 
 .banner{padding:0px;}
 
-.content1{background:#1bbd36;padding:12px 0;margin-top:50px;}
+.content1{background:#87CEEB;padding:12px 0;margin-top:50px;}
 
 .content1 ul li{float:left;padding:0 10px;margin: 3px 0;}.content1 p{color:#FFF;margin-bottom: 20px;text-align: center;}
 
@@ -627,7 +627,7 @@ nav {
 
 .content2 p{color:#000;padding:5px 0;text-align:justify;}
 
-.content2 a{float:right;color:#1bbd36;font-weight:600;}
+.content2 a{float:right;color:#87CEEB;font-weight:600;}
 
 .mail h1{
   font-size: 16px;
@@ -641,7 +641,7 @@ nav {
 
 .mail form input{margin:5px 0;width:100%;background:none;background:#f1f1f1;padding:0 0 0 5px;border:none;height:35px;font-size:13px;border-radius: 4px;}
 
-.mail form input[type="submit"]{margin:5px 0;width:80%;background:none;background:#1bbd36;border:none;margin-top: 20px;border-radius: 20px;height:35px;font-size:13px;color:#FFF;font-weight:600;}
+.mail form input[type="submit"]{margin:5px 0;width:80%;background:none;background:#87CEEB;border:none;margin-top: 20px;border-radius: 20px;height:35px;font-size:13px;color:#FFF;font-weight:600;}
 .mail form input[type="submit"]:hover {
   opacity: 0.7;
 }
@@ -665,7 +665,7 @@ nav {
 
 									         width:99px; height:43px; text-indent: -9999px; z-index: 9999;}
 
-.end ul li{padding:5px 0;color:#1bbd36;display: inline-block;font-size: 12px;}	
+.end ul li{padding:5px 0;color:#87CEEB;display: inline-block;font-size: 12px;}	
 
 .end{background:#fff;padding: 5px 0;}
 .end ul {
@@ -686,7 +686,7 @@ nav {
 
 .abt1 ul{padding:0px;}
 
-.abt1 i{color:#1bbd36;}
+.abt1 i{color:#87CEEB;}
 
 .abt1 ul li{font-family:'Open Sans', sans-serif;color:#515151;}
 
@@ -777,7 +777,7 @@ nav {
 
 .product1{text-align:center;padding:10px 5px;}
 
-.product1 h2{font-size:16px;color: #09db25;}
+.product1 h2{font-size:16px;color: #87cfebc2;}
 
 .product1 p{height:100px;}
 
@@ -1013,7 +1013,7 @@ nav {
 
 .innerproduct i{padding:0 5px 0 0;}
 
-.readme a{background:#104b01;padding: 14px 10px;color:#FFF;float:right;border-radius: 30px;}
+.readme a{background:#1db2ec;padding: 14px 10px;color:#FFF;float:right;border-radius: 30px;}
 
 .sidebar{padding-bottom:50px;}
 
@@ -1047,15 +1047,15 @@ nav {
   border-radius: 15px;
   margin: 0 20px;}
 
-.contact h2{font-size:20px;color:#1bbd36;font-weight:600;}
+.contact h2{font-size:20px;color:#87CEEB;font-weight:600;}
 
-.contact i{color:#FFF;background:#1bbd36;padding:5px 8px;border-radius:5px;margin:0 10px 0 0;}
+.contact i{color:#FFF;background:#87CEEB;padding:5px 8px;border-radius:5px;margin:0 10px 0 0;}
 
 .cont{padding:1px 15px;margin-bottom:10px;}
 
 .cont p{color:#333;padding-left:40px;}
 
-/*.cont p span{font-weight:bold; display: inline-block; border-bottom: 1px solid #000; margin-bottom: 5px; color:#1bbd36}*/
+/*.cont p span{font-weight:bold; display: inline-block; border-bottom: 1px solid #000; margin-bottom: 5px; color:#87CEEB}*/
 
 .enquiry h1{font-size:32px;font-weight:600;padding:0 0 10px 0;margin-bottom:0px;}
 
@@ -1083,7 +1083,7 @@ nav {
   font-weight: 600;
   border-radius: 20px;
   padding: 0 0 0 10px;
-  background: #104b01;
+  background: #1db2ec;
 }
 
 textarea{width:100%;border:none;height:60px;margin:0 0 15px 0; border-radius:7px;padding:15px;}
@@ -1092,7 +1092,7 @@ textarea{width:100%;border:none;height:60px;margin:0 0 15px 0; border-radius:7px
 
 .pro-txt			{border-top:4px solid #1F1818; padding-top: 20px}
 
-.pro-txt h5			{font-family: 'Open Sans', sans-serif; font-size:20px; display:inline-block; border-bottom:2px solid #11db0a}
+.pro-txt h5			{font-family: 'Open Sans', sans-serif; font-size:20px; display:inline-block; border-bottom:2px solid #1db2ec}
 
 .pro-txt ul 			{padding-left:5px;}
 
@@ -1237,7 +1237,7 @@ ul.main-navigation-menu li > ul.sub-menu > li > a:hover {
 
 	font-size:13px;
 
-	color:#1bbd36;
+	color:#87CEEB;
 
 	}
 
@@ -1265,7 +1265,7 @@ ul.main-navigation-menu li > ul.sub-menu > li a.active {
 
 	margin:0 0 0 50px;
 
-	color:#104b01;
+	color:#1db2ec;
 
 	font-size:13px;
 
@@ -1309,7 +1309,7 @@ font-family: 'Open Sans', sans-serif;
 
 ul.main-navigation-menu > li a > i {
 
-  color: #1bbd36;
+  color: #87CEEB;
 
   font-weight: normal;
 
@@ -1325,7 +1325,7 @@ ul.main-navigation-menu > li.active > a {
 
 ul.main-navigation-menu > li.active > a .selected:before {
 
-  color: #1bbd36 !important;
+  color: #87CEEB !important;
 
 }
 
@@ -1341,7 +1341,7 @@ ul.main-navigation-menu > li > a:hover,
 
 ul.main-navigation-menu > li:hover > a {
 
-  /*background:#717375 ; */color:#1bbd36;
+  /*background:#717375 ; */color:#87CEEB;
 
 }
 
@@ -1377,7 +1377,7 @@ ul.main-navigation-menu > li a i	{position:absolute; left:0px; top:7px; font-siz
 
 .splc 						{border:none}
 
-.banner-img	{background:#1bbd36; background-size:cover; height:auto;padding: 20px 0;}
+.banner-img	{background:#87CEEB; background-size:cover; height:auto;padding: 20px 0;}
 
 .header nav ul.menu {
   display: flex;
@@ -1507,7 +1507,7 @@ h5.sub-heading-title {
   padding: 0 15px!important;
   border: 0;
   margin: 20px 0;
-  color: #1bbd36;
+  color: #87CEEB;
 }
 .cont {
   background: rgb(2 150 218 / 2%);
@@ -1546,5 +1546,5 @@ a.hvr-underline-from-center.sidebar-open-icon.m-view{
 
 #thank-you-message.show {
   display: block;
-  color: #09db25;
+  color: #87cfebc2;
 }
